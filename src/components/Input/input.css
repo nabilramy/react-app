@@ -1,0 +1,16 @@
+.inputs {
+    border: 2px solid #7a7a7a;
+    border-radius: 2px;
+    width: 16rem;
+    height: 3rem;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+
+}
+
+::placeholder {
+    color: #7a7a7a ;
+    font-size: 1.2rem;
+    
+}

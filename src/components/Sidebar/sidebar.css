@@ -1,0 +1,27 @@
+.sidebar{
+    width: 4%;
+    display: block;
+    background-color: #f9f9f9;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar ul li {
+    margin-bottom: .6rem 0;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    height: 5rem;
+}
+
+.sidebar ul li:hover {
+ background-color: #b4b2b2 ;
+ cursor: pointer;
+}

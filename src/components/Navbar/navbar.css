@@ -1,0 +1,54 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  border: solid 1px blue;
+}
+.navBar_right {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.menu{
+    background-color: #606060;
+    width: 4rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar img {
+    width: 30px;
+    height: 30px;
+}
+.user__info {
+    display: flex;
+    align-items: center;
+}
+
+.user__info .name {
+margin-right: 1.5rem;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #a7a7a7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name p {
+    text-align: right;
+}
+.name p:hover {
+ text-decoration: underline;
+ cursor: pointer;
+}
